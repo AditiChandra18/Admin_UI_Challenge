@@ -1,0 +1,47 @@
+#searchInput{
+
+    width:1000px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    padding: 8px;
+  }
+
+  .selected {
+    background-color: #e0e0e0;
+  }
+
+  .pagination {
+    margin-top: 16px;
+  }
+
+  .pagination button {
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+
+  .pagination button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

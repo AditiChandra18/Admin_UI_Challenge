@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin UI</title>
+    <link rel="stylesheet"  href="/index.css">
+</head>
+<body>
+    <div>
+        <input type="text" id="searchInput" placeholder="Search..." />
+      </div>
+      <table id="userTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="pagination">
+        <button id="firstPageBtn">First Page</button>
+        <button id="previousPageBtn">Previous Page</button>
+        <button id="nextPageBtn">Next Page</button>
+        <button id="lastPageBtn">Last Page</button>
+      </div>
+      <button id="deleteSelectedBtn">Delete Selected</button>
+
+      <script type="module" src="/index.js"></script>
+
+
+    </body>
+</html>
+
+
+
